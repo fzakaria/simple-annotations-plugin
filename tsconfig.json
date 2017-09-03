@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "removeComments": false,
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "jsx": "preserve",
+        "pretty": true,
+        "allowUnusedLabels": true
+    },
+    "exclude": [
+    	"node_modules",
+      "dist",
+      "plugins/t2-grafana"
+    ],
+    "typeRoots": [
+      "./node_modules/@types/"
+    ]
+}

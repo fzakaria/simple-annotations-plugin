@@ -1,0 +1,30 @@
+{
+  "id": "grafana-simple-annotations",
+  "name": "SimpleAnnotations",
+  "type": "datasource",
+
+  "metrics": false,
+  "annotations": true,
+
+  "info": {
+    "description": "Simple Annotations for Grafana saved in your dashboard.json",
+    "author": {
+      "name": "Farid Zakaria",
+      "url": "farid.m.zakaria@gmail.com"
+    },
+    "keywords": ["simple", "annotations"],
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [
+      {"name": "Github", "url": "https://confluence.aka.lgl.grungy.us/display/Telemetry/Telemetry+v2+User+Documentation"}
+    ],
+    "version": "1.0.0"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "4.x.x",
+    "plugins": [ ]
+  }
+}

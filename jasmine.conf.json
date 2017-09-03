@@ -1,0 +1,9 @@
+{
+    "spec_files": [
+        "**/*_spec.ts"
+    ],
+
+    "stopSpecOnExpectationFailure" : false,
+
+    "random": true
+}
