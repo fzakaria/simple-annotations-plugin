@@ -18,7 +18,7 @@
       "large": "img/logo.svg"
     },
     "links": [
-      {"name": "Github", "url": "https://github.com/grafana/simple-json-datasource"}
+      {"name": "Github", "url": "https://github.com/fzakaria/simple-annotations-plugin"}
     ],
     "version": "1.0.0"
   },
