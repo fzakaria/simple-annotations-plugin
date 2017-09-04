@@ -11,8 +11,7 @@
     },
     "exclude": [
     	"node_modules",
-      "dist",
-      "plugins/t2-grafana"
+      "dist"
     ],
     "typeRoots": [
       "./node_modules/@types/"

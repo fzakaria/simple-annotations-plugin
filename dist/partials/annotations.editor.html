@@ -1,0 +1,40 @@
+<form style="margin-bottom: 3rem">
+  <div ng-repeat="query in ctrl.annotation.queries">
+    <div style="display: flex">
+      <div class="max-width-20">
+        <label class="small">Date {{$index + 1}}</label>
+        <div class="gf-form-inline">
+          <div class="gf-form">
+            <button class="btn gf-form-btn btn-primary" type="button" ng-click="ctrl.togglePicker($index)">
+              <i class="fa fa-calendar" />
+            </button>
+          </div>
+          <div class="gf-form max-width-20">
+            <input type="text" class="gf-form-input input-large" ng-model="ctrl.dateDisplays[$index]" ng-blur="ctrl.displayChanged($index)" input-datetime>
+          </div>
+        </div>
+      </div>
+
+      <div class="max-width-28">
+        <label class="small">Text</label>
+        <div class="gf-form-inline">
+          <div class="gf-form max-width-28">
+            <input type="text" class="gf-form-input input-large" ng-model="query.text">
+          </div>
+          <div class="gf-form">
+            <a class="btn btn-danger gf-form-btn" ng-click="ctrl.removeDate($index)">
+              <i class="fa fa-remove" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div ng-if="ctrl.openPickers[$index]">
+      <datepicker ng-model="query.date" class="gf-timepicker-component" show-weeks="false" starting-day="ctrl.firstDayOfWeek"
+        ng-change="ctrl.dateChanged($index);" />
+    </div>
+  </div>
+
+  <button class="btn gf-form-btn btn-primary" ng-click="ctrl.addDate()">Add another date</button>
+</form>
