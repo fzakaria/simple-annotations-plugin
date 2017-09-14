@@ -37,9 +37,9 @@ It works by using the `dashboard.json` itself as the store for annotations -- th
   },
 ```
 
-![Screenshot 1](/img/screenshot_1.png?raw=true "Screenshot 1")
+![Screenshot 1](https://raw.githubusercontent.com/fzakaria/simple-annotations-plugin/master/dist/img/screenshot_1.png "Screenshot 1")
 
-![Screenshot 2](/img/screenshot_2.png?raw=true "Screenshto 2")
+![Screenshot 2](https://raw.githubusercontent.com/fzakaria/simple-annotations-plugin/master/dist/img/screenshot_2.png "Screenshto 2")
 
 
 ## Development
