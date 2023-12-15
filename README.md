@@ -1,5 +1,8 @@
 # Grafana Simple Annotations Plugin
 
+> **This repository is seeking a maintainer.** The plugin also needs to be updated to React in accordance with [Issue 2](https://github.com/fzakaria/simple-annotations-plugin/issues/2).
+> Please cut an issue if you are interested and put forward a PR to show your willingness. Thank you.
+
 *Frustrated with using a datasource that doesn't support annotations?*
 
 This is a *simple annotation* plugin for [Grafana](https://grafana.com/) that works with **any** Datasource!
